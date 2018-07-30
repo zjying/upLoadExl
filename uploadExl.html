@@ -45,7 +45,7 @@
 			        }
 			        //wb.SheetNames[0]是获取Sheets中第一个Sheet的名字
 			        //wb.Sheets[Sheet名]获取第一个Sheet的数据
-			        var a=wb.SheetNames[1];
+			        var a=wb.SheetNames[0];
 			        var b=wb.Sheets[a];//内容为方式2
 			        console.log(b)
 			        data=XLSX.utils.sheet_to_json(b);//内容为方式1
